@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var Articles={
-    'Article-One':{
+     'Article-one':{
         title:'Article One | Akshay Bhaskar',
         heading:'Article One | JavaScript',
         date:'20 Aug, 2017',
@@ -26,7 +26,7 @@ var Articles={
 		    	It is open and cross-platform.
 	        </p>`
     },
-    'Article-Two':{
+     'Article-two':{
          title:'Article Two | Akshay Bhaskar',
          heading:'Article Two | HTML and CSS',
          date:'25 Aug, 2017',
