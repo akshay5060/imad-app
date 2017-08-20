@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var Articles={
-    ArticleOne:{
+    'ArticleOne':{
         title:'Article One | Akshay Bhaskar',
         heading:'Article One | JavaScript',
         date:'20 Aug, 2017',
@@ -26,9 +26,9 @@ var Articles={
 		    	It is open and cross-platform.
 	        </p>`
     },
-    ArticleTwo:{
+    'ArticleTwo':{
          title:'Article Two | Akshay Bhaskar',
-         heading:'Article One | HTML and CSS',
+         heading:'Article Two | HTML and CSS',
          date:'25 Aug, 2017',
          content: `
 			<h1>What is HTML?</h1>
@@ -65,11 +65,11 @@ function CreateTemplate(data){
 var htmlTemplate=`
 <html>
     <head>
-		<link href="/ui/style.css" rel="stylesheet" />
         <title>
             ${title}
         </title>
         <meta name="viewport" content="width=device-width,initial scale=1"/>
+        <link href="/ui/style.css" rel="stylesheet" />
 
     </head>
     <body>
