@@ -32,36 +32,14 @@ function CreateTemplate(data){
     var heading = data.heading;
     var content = data.content;
     
-    var htmlTemplate=`
-        <!doctype html>
+var htmlTemplate=`
 <html>
     <head>
 		<link href="/ui/style.css" rel="stylesheet" />
         <title>
             ${title}
         </title>
- 
-       <style>
-            .container{
-                max-width: 800px;
-                margin: 0 auto;
-                color:grey;
-                font-family: sans-serif;
-                padding-top: 60px;
-                padding-left:20px;
-                padding-right:20px;
-            }
-            
-            h1{
-              text-decoration:underline;  
-            }
-            p{
-                color:red;
-            }
-            body{
-                Background:white;
-            }
-        </style>
+        <meta name="viewport" content="width=device-width,initial scale=1"/>
 
     </head>
     <body>
