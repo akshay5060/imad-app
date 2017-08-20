@@ -38,7 +38,7 @@ var Articles={
 				powerful in what it allows you to create. It is constantly undergoing revision and evolution to meet the demands and
 				requirements of the growing Internet audience under the direction of the » W3C, the organisation charged with designin
 				and maintaining the language.<br/>
-			<b>The definition of HTML is HyperText Markup Language.</b>
+			<b class=center>The definition of HTML is HyperText Markup Language.</b><br/>
 				HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bri
 				you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the
 				Internet whenever you want by clicking on links — there is no set order to do things in.
