@@ -106,10 +106,6 @@ app.get('/:ArticleName', function (req, res) {
   res.send(CreateTemplate(Articles[ArticleName]));
 });
 
-app.get('/Article-two', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Article-two.html'));
-});
-
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
